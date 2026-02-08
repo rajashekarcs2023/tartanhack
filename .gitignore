@@ -1,0 +1,22 @@
+# env files (API keys)
+.env
+.env.local
+.env.production
+.env*.local
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build / next
+.next/
+out/
+build/
+dist/
+
+# misc
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.vercel

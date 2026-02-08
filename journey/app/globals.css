@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 25% 48%;
+    --foreground: 35 60% 92%;
+    --card: 30 30% 16%;
+    --card-foreground: 35 60% 92%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 30 30% 12%;
+    --secondary: 150 40% 45%;
+    --secondary-foreground: 35 60% 92%;
+    --muted: 30 20% 22%;
+    --muted-foreground: 35 30% 60%;
+    --accent: 330 65% 55%;
+    --accent-foreground: 35 60% 95%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 35 60% 95%;
+    --border: 35 40% 35%;
+    --input: 30 25% 20%;
+    --ring: 45 100% 50%;
+    --radius: 0.25rem;
+  }
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+}
+
+@layer utilities {
+  .font-pixel { font-family: 'Press Start 2P', monospace; }
+  .text-shadow-gold { text-shadow: 0 0 6px rgba(255,215,0,0.5), 2px 2px 0 #8b6508; }
+  .pixel-border {
+    border: 3px solid #8b5e3c;
+    box-shadow: inset 2px 2px 0 #c4956a, inset -2px -2px 0 #5a3a1e, 0 2px 8px rgba(0,0,0,0.3);
+  }
+}
+
+@keyframes float-cloud { 0% { transform: translateX(0); } 100% { transform: translateX(60px); } }
+@keyframes sway { 0%,100% { transform: rotate(-2deg); } 50% { transform: rotate(2deg); } }
+@keyframes sparkle { 0%,100% { opacity:0; transform:scale(0) translateY(0); } 50% { opacity:1; transform:scale(1) translateY(-8px); } }
+@keyframes hero-bob { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-3px); } }
+@keyframes pulse-glow { 0%,100% { box-shadow: 0 0 4px #ffd700; } 50% { box-shadow: 0 0 16px #ffd700, 0 0 24px rgba(255,215,0,0.4); } }
+@keyframes flag-wave { 0%,100% { transform:skewX(0); } 50% { transform:skewX(-5deg); } }
+@keyframes walk-in { 0% { opacity:0; transform:translateY(20px); } 100% { opacity:1; transform:translateY(0); } }
+@keyframes toast-in { 0% { opacity:0; transform:translateY(-10px) scale(0.95); } 100% { opacity:1; transform:translateY(0) scale(1); } }
+@keyframes demon-hover { 0%,100% { transform:translateY(0) scale(1); } 50% { transform:translateY(-4px) scale(1.05); } }
+@keyframes demon-pulse { 0%,100% { opacity:0.6; } 50% { opacity:1; } }
+@keyframes slash-hit { 0% { transform:rotate(-45deg) scale(0); opacity:1; } 50% { transform:rotate(0deg) scale(1.2); opacity:1; } 100% { transform:rotate(15deg) scale(0.8); opacity:0; } }
+@keyframes shake { 0%,100% { transform:translateX(0); } 10% { transform:translateX(-8px) rotate(-1deg); } 30% { transform:translateX(8px) rotate(1deg); } 50% { transform:translateX(-6px); } 70% { transform:translateX(6px); } 90% { transform:translateX(-3px); } }
+@keyframes penalty-pulse { 0%,100% { opacity:0.7; } 50% { opacity:1; } }
+@keyframes battle-flash { 0% { opacity:0; } 20% { opacity:0.8; } 100% { opacity:0; } }
+@keyframes xp-float { 0% { opacity:1; transform:translateY(0); } 100% { opacity:0; transform:translateY(-30px); } }
+@keyframes skull-float { 0%,100% { transform:translateY(0) rotate(-5deg); } 50% { transform:translateY(-6px) rotate(5deg); } }
+@keyframes fire-flicker { 0%,100% { transform:scaleY(1) scaleX(1); } 25% { transform:scaleY(1.1) scaleX(0.9); } 50% { transform:scaleY(0.9) scaleX(1.1); } 75% { transform:scaleY(1.05) scaleX(0.95); } }
+@keyframes victory-glow { 0% { box-shadow:0 0 0 rgba(255,215,0,0); } 50% { box-shadow:0 0 40px rgba(255,215,0,0.6), 0 0 80px rgba(255,215,0,0.3); } 100% { box-shadow:0 0 0 rgba(255,215,0,0); } }
+@keyframes twinkle { 0%,100% { opacity:0.3; } 50% { opacity:1; } }
+@keyframes parallax-drift { 0% { transform:translateX(0); } 100% { transform:translateX(20px); } }
+@keyframes lava-bubble { 0%,100% { r:2; opacity:0.6; } 50% { r:3.5; opacity:1; } }
+@keyframes pulse { 0%,100% { transform:scale(1); box-shadow:0 0 0 rgba(255,96,96,0); } 50% { transform:scale(1.1); box-shadow:0 0 12px rgba(255,96,96,0.6); } }
+@keyframes level-up-glow { 0% { opacity:0; transform:scale(0.5); } 50% { opacity:1; transform:scale(1.2); } 100% { opacity:0; transform:scale(1.5); } }
