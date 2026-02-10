@@ -147,9 +147,6 @@ journey/
 <img width="429" height="956" alt="Screenshot 2026-02-09 at 6 12 01 PM" src="https://github.com/user-attachments/assets/bb86b8af-3bab-4f57-a674-8be9fe9e1ccb" />
 
 
-## 🎮 Demo Video
-
-*(Add demo video link when available)*
 
 ## 🚀 Deployment
 
@@ -171,7 +168,6 @@ MIT License — see LICENSE file for details
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📞 Contact
 
 Built with ❤️ at TartanHacks 2026
 
