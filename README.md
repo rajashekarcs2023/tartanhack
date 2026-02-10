@@ -133,8 +133,19 @@ journey/
 - **Engineering Management** — Project Coordination
 
 ## 📸 Screenshots
+<img width="429" height="991" alt="Screenshot 2026-02-09 at 5 48 53 PM" src="https://github.com/user-attachments/assets/29361a10-0dcc-45aa-8cd2-b8d4fe3382bb" />
 
-*(Add screenshots here when available)*
+<img width="429" height="714" alt="Screenshot 2026-02-09 at 5 49 50 PM" src="https://github.com/user-attachments/assets/caf896af-7711-4df4-a809-83524bbaad9a" />
+
+<img width="429" height="956" alt="Screenshot 2026-02-09 at 5 51 05 PM" src="https://github.com/user-attachments/assets/05888a6d-6f94-41bd-862d-328d8d30bbb2" />
+
+<img width="429" height="956" alt="Screenshot 2026-02-09 at 6 11 46 PM" src="https://github.com/user-attachments/assets/1e6e9704-01a8-46e1-b92f-7b811942bda8" />
+
+<img width="429" height="956" alt="Screenshot 2026-02-09 at 6 12 12 PM" src="https://github.com/user-attachments/assets/269fdb0e-e1f2-40ac-81d1-7ca6d39a3400" />
+<img width="429" height="956" alt="Screenshot 2026-02-09 at 6 12 08 PM" src="https://github.com/user-attachments/assets/aef2a252-7bb3-420d-9807-1cafbbb7a686" />
+
+<img width="429" height="956" alt="Screenshot 2026-02-09 at 6 12 01 PM" src="https://github.com/user-attachments/assets/bb86b8af-3bab-4f57-a674-8be9fe9e1ccb" />
+
 
 ## 🎮 Demo Video
 
