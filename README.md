@@ -1,4 +1,4 @@
-# Journey — Financial Literacy RPG
+# Journey 
 
 A gamified financial literacy app that transforms personal finance into a JRPG adventure. Built at TartanHacks 2026.
 
